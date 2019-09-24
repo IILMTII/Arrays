@@ -1,0 +1,13 @@
+def yell(words)
+i=0
+  new=[]
+  while i<words.length
+  new<<words[i]+"!"
+    i+=1
+  end
+  return new
+end
+
+print yell(["hello", "world"]) # => ["hello!", "world!"]
+puts
+print yell(["code", "is", "cool"]) # => ["code!", "is!", "cool!"]
